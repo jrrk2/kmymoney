@@ -22,7 +22,9 @@
 // Project Includes
 
 #include "config-kmymoney.h"
+#ifdef ENABLE_GPG
 #include "kgpgfile.h"
+#endif
 #include "kmymoneysettings.h"
 
 #define RECOVER_KEY_ID      "0xD2B08440"

@@ -18,7 +18,9 @@
 // Project Includes
 
 #include "config-kmymoney.h"
+#ifdef ENABLE_GPG
 #include <kgpgfile.h>
+#endif
 #include <ui_kgpgkeyselectiondlg.h>
 
 class KGpgKeySelectionDlgPrivate

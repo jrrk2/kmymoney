@@ -417,7 +417,7 @@ public:
         m_progressDelay.start();
 
         m_quote.setDateRange(ui->m_fromDate->date(), ui->m_toDate->date());
-        m_quote.setUseSingleQuoteSignal(true);
+        // FIXME!!        m_quote.setUseSingleQuoteSignal(true);
 
         m_abortUpdate = false;
         for (int row = 0; !m_abortUpdate && row < rows; ++row) {

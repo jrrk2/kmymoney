@@ -24,7 +24,9 @@
 // Project Includes
 
 #include "icons.h"
+#ifdef ENABLE_GPG
 #include "kgpgfile.h"
+#endif
 
 using namespace Icons;
 

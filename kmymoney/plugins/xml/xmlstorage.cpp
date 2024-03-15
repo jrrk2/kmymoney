@@ -36,7 +36,9 @@
 
 #include "appinterface.h"
 #include "icons.h"
+#ifdef ENABLE_GPG
 #include "kgpgfile.h"
+#endif
 #include "kgpgkeyselectiondlg.h"
 #include "kmymoneyenums.h"
 #include "kmymoneysettings.h"
